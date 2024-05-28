@@ -54,13 +54,12 @@ if (!userId) {
     setCookie(userIdCookieName, userId, 3650); // Cookie expires in 10 year
 }
 
-fetch('http://localhost:7001/track' + userId, {
+fetch('http://localhost:7001/api/v1/dextero/track/' + userId, {
     method: 'GET',
     headers: {
         'Content-Type': 'application/json',
     }
 })
-    .then(response => response.json())
     .then(data => {
         console.log('Success:', data);
     })
