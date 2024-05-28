@@ -80,7 +80,7 @@
         <div id="myModal" class="modal">
             <div class="modal-content container">
                 <div class="class-sm-12">
-                    <p class="text-center">For your personalized offer contact us at <b> beautiful-email@gmail.com </b>
+                    <p class="text-center">For your personalized offer contact us at <b> contact.dextero@gmail.com </b>
                     </p>
                 </div>
                 <div class="class-sm-12 ml-auto mr-auto">
@@ -95,8 +95,7 @@
                 <p class="text-white">
                     Our service provides a romanian dictionary, a collection of words, phrases, and their meanings. It
                     serves as a valuable resource for language learners, writers, and anyone seeking to improve their
-                    vocabulary and understanding of language. With this dictionary, you can explore the nuances of
-                    words, discover synonyms and uncover the etymology of words.
+                    vocabulary and understanding of language.
                 </p>
             </section>
 
@@ -124,15 +123,13 @@
             Url: <span style="color: #00b5ec;"> http://url-frumos/api/v1/dextero/starts-with/arcan   </span>
             Response: <span style="color: #3ab328;">
                 {
-                    "length": 8,
+                    "length": 6,
                     "words": [
-                        "arcan",
-                        "arcana",
                         "arcani",
+                        "arcan",
                         "arcanul",
+                        "arcana",
                         "arcane",
-                        "arcan",
-                        "arcan",
                         "arcanea"
                     ]
                 }
@@ -151,10 +148,8 @@
             Url: <span style="color: #00b5ec;"> http://url-frumos/api/v1/dextero/ends-with/arcan     </span>
             Response: <span style="color: #3ab328;"> 
                 {
-                    "length": 4,
+                    "length": 2,
                     "words": [
-                        "arcan",
-                        "arcan",
                         "arcan",
                         "carcan"
                     ]
@@ -216,7 +211,9 @@
         <span style="color: #ffffff;"> <b>Example</b> </span>
         Url: <span style="color: #00b5ec;"> http://url-frumos/api/v1/check/arc       </span>
         Response: <span style="color: #3ab328;"> 
-            true
+            {
+                "wordExists": true
+            }
         </span>
     </code>
 </pre>
