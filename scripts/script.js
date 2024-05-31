@@ -54,7 +54,7 @@ if (!userId) {
     setCookie(userIdCookieName, userId, 3650); // Cookie expires in 10 year
 }
 
-fetch('http://api.dextero.site/api/v1/dextero/track/' + userId, {
+fetch('https://api.dextero.site/api/v1/dextero/track/' + userId, {
     method: 'GET',
     headers: {
         'Content-Type': 'application/json',
