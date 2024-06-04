@@ -385,3 +385,7 @@ pre {
     border-radius: 5px;
     opacity: 0.8 !important;
 }
+
+.terms-and-conditions {
+    text-decoration: underline;
+}
